@@ -46,8 +46,13 @@ const TechStack = () => {
   ];
 
   return (
-    <div className="techstack" style={{ height: "auto", minHeight: "100vh" }}>
-      <h2>Skills</h2>
+    <div className="techstack" style={{ minHeight: "100vh", paddingTop: "10vh", paddingBottom: "10vh" }}>
+      <h2 style={{
+        marginBottom: "4rem",
+        textAlign: "center",
+        position: "relative",
+        zIndex: 10
+      }}>Skills</h2>
       <div
         className="skills-grid"
         style={{
@@ -55,7 +60,6 @@ const TechStack = () => {
           gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
           gap: "2rem",
           padding: "2rem",
-          marginTop: "150px",
           maxWidth: "1400px",
           marginLeft: "auto",
           marginRight: "auto",

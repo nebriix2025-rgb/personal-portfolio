@@ -71,7 +71,7 @@ const Work = () => {
                 resulting in 3x higher engagement rates for clients across social media platforms.
               </p>
             </div>
-            <WorkImage image="/images/placeholder.webp" alt="AI Video Ad Campaign" />
+            <WorkImage image="/images/project-01-ai-video.png" alt="AI Video Ad Campaign" />
           </div>
 
           <div className="work-box">
@@ -91,7 +91,7 @@ const Work = () => {
                 packaging that elevated brand perception and increased customer recognition by 60%.
               </p>
             </div>
-            <WorkImage image="/images/placeholder.webp" alt="Brand Identity System" />
+            <WorkImage image="/images/project-02-branding.png" alt="Brand Identity System" />
           </div>
 
           <div className="work-box">
@@ -111,7 +111,7 @@ const Work = () => {
                 buyers with comprehensive virtual experiences before in-person viewings.
               </p>
             </div>
-            <WorkImage image="/images/placeholder.webp" alt="Real Estate Media Suite" />
+            <WorkImage image="/images/project-03-realestate.png" alt="Real Estate Media Suite" />
           </div>
 
           <div className="work-box">
@@ -131,7 +131,7 @@ const Work = () => {
                 and connected multiple platforms to save businesses 20+ hours per week.
               </p>
             </div>
-            <WorkImage image="/images/placeholder.webp" alt="Business Automation Hub" />
+            <WorkImage image="/images/project-04-automation.png" alt="Business Automation Hub" />
           </div>
 
           <div className="work-box">
@@ -151,7 +151,7 @@ const Work = () => {
                 digital showcases that helped clients stand out and land premium opportunities.
               </p>
             </div>
-            <WorkImage image="/images/placeholder.webp" alt="Interactive Portfolio Web App" />
+            <WorkImage image="/images/project-05-portfolio.png" alt="Interactive Portfolio Web App" />
           </div>
 
           <div className="work-box">
@@ -171,7 +171,7 @@ const Work = () => {
                 achieve 5x follower growth and 10x engagement within 6 months.
               </p>
             </div>
-            <WorkImage image="/images/placeholder.webp" alt="Social Growth System" />
+            <WorkImage image="/images/project-06-social.png" alt="Social Growth System" />
           </div>
         </div>
       </div>

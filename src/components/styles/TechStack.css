@@ -1,0 +1,88 @@
+.techstack {
+    min-height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    width: 100%;
+    position: relative;
+    background-color: var(--backgroundColor);
+    z-index: 10;
+}
+
+.techstack h2 {
+    margin-bottom: 4rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    font-size: 70px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--accentColor);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-category {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.skill-category:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-5px);
+}
+
+.skill-category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--accentColor);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.skill-item {
+    font-size: 1.1rem;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-dot {
+    width: 6px;
+    height: 6px;
+    background: var(--accentColor);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .techstack h2 {
+        font-size: 40px;
+        margin-bottom: 2rem;
+    }
+
+    .techstack {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+}

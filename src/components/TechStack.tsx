@@ -1,6 +1,8 @@
 // 3D physics code removed as it was unused and causing build errors
 
 
+import "./styles/TechStack.css";
+
 const TechStack = () => {
   const skills = [
     {
@@ -46,77 +48,16 @@ const TechStack = () => {
   ];
 
   return (
-    <div className="techstack" style={{ minHeight: "100vh", paddingTop: "10vh", paddingBottom: "10vh" }}>
-      <h2 style={{
-        marginBottom: "4rem",
-        textAlign: "center",
-        position: "relative",
-        zIndex: 10
-      }}>Skills</h2>
-      <div
-        className="skills-grid"
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-          gap: "2rem",
-          padding: "2rem",
-          maxWidth: "1400px",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
-      >
+    <div className="techstack">
+      <h2>Skills</h2>
+      <div className="skills-grid">
         {skills.map((skillGroup, index) => (
-          <div
-            key={index}
-            className="skill-category"
-            style={{
-              background: "rgba(255,255,255,0.05)",
-              padding: "2rem",
-              borderRadius: "16px",
-              border: "1px solid rgba(255,255,255,0.1)",
-            }}
-          >
-            <h3
-              style={{
-                fontSize: "1.5rem",
-                marginBottom: "1.5rem",
-                color: "var(--accentColor)",
-                textTransform: "uppercase",
-                letterSpacing: "1px",
-              }}
-            >
-              {skillGroup.category}
-            </h3>
-            <ul
-              style={{
-                listStyle: "none",
-                padding: 0,
-                margin: 0,
-                display: "flex",
-                flexDirection: "column",
-                gap: "0.8rem",
-              }}
-            >
+          <div key={index} className="skill-category">
+            <h3>{skillGroup.category}</h3>
+            <ul className="skill-list">
               {skillGroup.items.map((item, i) => (
-                <li
-                  key={i}
-                  style={{
-                    fontSize: "1.1rem",
-                    opacity: 0.8,
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "10px",
-                  }}
-                >
-                  <span
-                    style={{
-                      width: "6px",
-                      height: "6px",
-                      background: "var(--accentColor)",
-                      borderRadius: "50%",
-                      display: "inline-block",
-                    }}
-                  ></span>
+                <li key={i} className="skill-item">
+                  <span className="skill-dot"></span>
                   {item}
                 </li>
               ))}

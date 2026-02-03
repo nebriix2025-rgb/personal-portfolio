@@ -15,43 +15,48 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Creative Developer & Designer</h4>
+                <h5>Freelance</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2022</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Launched my freelance career focusing on web development and UI/UX design.
+              Built interactive web applications using React and Three.js, created brand
+              identity systems for startups, and developed product labels for local businesses.
+              Mastered modern front-end technologies and design principles.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Digital Marketing & Media Specialist</h4>
+                <h5>Various Clients</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2023</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Expanded into digital marketing and video production. Developed social media
+              growth strategies, designed marketing funnels, and created AI-powered video
+              ad campaigns. Specialized in real estate media production including drone
+              footage and 3D property tours. Helped brands increase their online presence
+              and conversion rates.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Growth Catalyst & Automation Expert</h4>
+                <h5>Independent Consultant</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Currently helping brands sell more and add value through comprehensive digital
+              solutions. Combining design, development, AI automation, and marketing expertise
+              to create end-to-end growth systems. Building AI workflow designs, chatbot
+              integrations, and content pipelines that streamline business operations and
+              drive measurable results.
             </p>
           </div>
         </div>

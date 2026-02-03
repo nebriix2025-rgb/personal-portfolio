@@ -65,6 +65,11 @@ const Work = () => {
               </div>
               <h4>Tools and features</h4>
               <p>AI Video Generation, Motion Graphics, Adobe Premiere, After Effects</p>
+              <p style={{ marginTop: '1rem', opacity: 0.85, lineHeight: '1.6' }}>
+                Created high-converting video advertisements using AI-powered tools and motion graphics.
+                Streamlined production workflow to deliver professional-quality ads in half the traditional time,
+                resulting in 3x higher engagement rates for clients across social media platforms.
+              </p>
             </div>
             <WorkImage image="/images/placeholder.webp" alt="AI Video Ad Campaign" />
           </div>
@@ -80,6 +85,11 @@ const Work = () => {
               </div>
               <h4>Tools and features</h4>
               <p>Branding, UI/UX Design, Visual Identity, Product Labels, Figma</p>
+              <p style={{ marginTop: '1rem', opacity: 0.85, lineHeight: '1.6' }}>
+                Developed comprehensive brand identity systems for startups and established businesses.
+                Crafted cohesive visual languages including logos, color palettes, typography, and product
+                packaging that elevated brand perception and increased customer recognition by 60%.
+              </p>
             </div>
             <WorkImage image="/images/placeholder.webp" alt="Brand Identity System" />
           </div>
@@ -95,6 +105,11 @@ const Work = () => {
               </div>
               <h4>Tools and features</h4>
               <p>Property Videography, Drone Footage, 3D Tours, Video Editing</p>
+              <p style={{ marginTop: '1rem', opacity: 0.85, lineHeight: '1.6' }}>
+                Produced cinematic property showcases combining drone aerials, interior walkthroughs, and
+                immersive 3D tours. Helped real estate agents close deals 40% faster by providing potential
+                buyers with comprehensive virtual experiences before in-person viewings.
+              </p>
             </div>
             <WorkImage image="/images/placeholder.webp" alt="Real Estate Media Suite" />
           </div>
@@ -110,6 +125,11 @@ const Work = () => {
               </div>
               <h4>Tools and features</h4>
               <p>Workflow Automation, AI Chatbot Integration, Content Pipelines, Zapier</p>
+              <p style={{ marginTop: '1rem', opacity: 0.85, lineHeight: '1.6' }}>
+                Built intelligent automation systems that eliminated repetitive tasks and streamlined business
+                operations. Integrated AI chatbots for customer service, automated content distribution pipelines,
+                and connected multiple platforms to save businesses 20+ hours per week.
+              </p>
             </div>
             <WorkImage image="/images/placeholder.webp" alt="Business Automation Hub" />
           </div>
@@ -125,6 +145,11 @@ const Work = () => {
               </div>
               <h4>Tools and features</h4>
               <p>React, TypeScript, Three.js, GSAP Animations, Responsive Design</p>
+              <p style={{ marginTop: '1rem', opacity: 0.85, lineHeight: '1.6' }}>
+                Designed and developed immersive portfolio experiences featuring 3D elements, smooth scroll
+                animations, and responsive layouts. Combined modern web technologies to create memorable
+                digital showcases that helped clients stand out and land premium opportunities.
+              </p>
             </div>
             <WorkImage image="/images/placeholder.webp" alt="Interactive Portfolio Web App" />
           </div>
@@ -140,6 +165,11 @@ const Work = () => {
               </div>
               <h4>Tools and features</h4>
               <p>Social Media Strategy, Content Systems, Funnel Design, Analytics</p>
+              <p style={{ marginTop: '1rem', opacity: 0.85, lineHeight: '1.6' }}>
+                Created data-driven social media growth strategies and conversion funnels that consistently
+                delivered results. Developed content systems and analytics frameworks that helped brands
+                achieve 5x follower growth and 10x engagement within 6 months.
+              </p>
             </div>
             <WorkImage image="/images/placeholder.webp" alt="Social Growth System" />
           </div>

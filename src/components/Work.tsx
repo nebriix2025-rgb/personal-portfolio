@@ -12,14 +12,17 @@ const Work = () => {
 
     function setTranslateX() {
       const box = document.getElementsByClassName("work-box");
-      const rectLeft = document
-        .querySelector(".work-container")!
-        .getBoundingClientRect().left;
-      const rect = box[0].getBoundingClientRect();
-      const parentWidth = box[0].parentElement!.getBoundingClientRect().width;
-      const padding: number =
-        parseInt(window.getComputedStyle(box[0]).padding) / 2;
-      translateX = rect.width * box.length - (rectLeft + parentWidth) + padding;
+      const container = document.querySelector(".work-container")!;
+      // Total width of all boxes
+      const totalWidth = box[0].getBoundingClientRect().width * box.length;
+      // Width of the viewing container
+      const containerWidth = container.getBoundingClientRect().width;
+
+      // We want to scroll enough so the last box ends at the right edge
+      // Usually: Total Width - Viewport Width + Padding
+      // We added 250px padding-left to .work-flex
+      const paddingLeft = 250;
+      translateX = totalWidth - containerWidth + paddingLeft + 100; // Extra buffer for right side
     }
 
     setTranslateX();
